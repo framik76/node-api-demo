@@ -35,9 +35,6 @@ class Server {
 
     routes() {
         this.app.use( config.apiPaths.users, userRoutes );
-        this.app.get('/', (req, res) => {
-            res.send('Hello World!');
-        });
     }
 
     middlewares() {
