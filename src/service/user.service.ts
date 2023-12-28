@@ -2,7 +2,6 @@ import { PrismaClient } from "@prisma/client";
 import bcrypt from 'bcrypt';
 import { UserDTO } from "../dto/user";
 
-
  class UserService {
 
     static prisma = new PrismaClient();
